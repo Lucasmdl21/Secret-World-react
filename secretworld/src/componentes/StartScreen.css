@@ -1,7 +1,16 @@
-.start h1{
-    font-size: 3.5rem;
+.start {
+  text-align: center;
 }
-.start p{
-    margin-bottom: 2em;
-    color: yellow;
+
+.start h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  color: #ff9800;
+  text-shadow: 0 0 15px rgba(255,152,0,0.6);
+}
+
+.start p {
+  margin-bottom: 2em;
+  color: #ffe082;
+  font-size: 1.2rem;
 }

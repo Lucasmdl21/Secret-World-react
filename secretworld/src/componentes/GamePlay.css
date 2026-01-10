@@ -1,47 +1,68 @@
+.game {
+  text-align: center;
+}
+
 .game h1 {
-    font-size: 2rem;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
 }
-.ponis span {
-    font-weight: bold;
-    color: purple;
+
+.points span {
+  font-weight: bold;
+  color: #9c27b0;
+  font-size: 1.3rem;
 }
+
 .tip span {
-    font-weight: bold;
-    color: orange;
+  font-weight: bold;
+  color: #ff9800;
 }
 
 .wordContainer {
-    margin: 1.5rem;
-    padding: 1.5em;
-    border: 20px solid yellow;
-    display: flex;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border: 4px solid #ff9800;
+  border-radius: 15px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  background: rgba(0,0,0,0.3);
 }
+
 .letter, .blankSquare {
-    font-size: 70px;
-    line-height: 1.5;
-    border: 3px solid black;
-    width: 100px;
-    text-transform: uppercase;
-    background-color: lightgray;
-    color: black;
-    text-align: center;
+  font-size: 60px;
+  line-height: 1.2;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  width: 90px;
+  height: 90px;
+  text-transform: uppercase;
+  background-color: #1e1e1e;
+  color: #ff9800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .letterContainer p {
-    margin: 1.5rem;
+  margin: 1.5rem;
+  font-size: 1.1rem;
 }
 
 .letterContainer form {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .letterContainer input {
-    width: 50px;
-    height: 50px;
-    font-size: 16px;
-    border-radius: 10px;
-    border: none;
-    margin-right: 1rem;
-    text-align: center;
+  width: 55px;
+  height: 55px;
+  font-size: 22px;
+  border-radius: 10px;
+  border: none;
+  margin-right: 1rem;
+  text-align: center;
+  outline: none;
+  box-shadow: 0 0 10px rgba(255,152,0,0.5);
 }
